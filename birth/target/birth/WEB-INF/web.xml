@@ -1,0 +1,17 @@
+
+
+<web-app>
+  <display-name>Age Calc</display-name>
+  <servlet>
+    <servlet-name>AgeCalc</servlet-name>
+    <servlet-class>com.example.control.AgeCalc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AgeCalc</servlet-name>
+    <url-pattern>/Birth</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
